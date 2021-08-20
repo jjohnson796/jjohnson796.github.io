@@ -55,4 +55,12 @@ body{
     margin-bottom: 15px;
 }
 
-.title:
+.title:before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: #3525af;
+}
